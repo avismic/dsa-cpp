@@ -24,4 +24,5 @@ int main(){
   findElement(arr,n,key);
 
   return 0;
+  
 }
