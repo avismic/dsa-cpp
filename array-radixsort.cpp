@@ -53,4 +53,5 @@ int main(){
 
   radixSort(arr,n);
   print(arr,n);
+  return 0;
 }
