@@ -49,5 +49,8 @@ void print(int arr[], int n){
 
 int main(){
   int arr[] = {170,65,3,4,56,23,67,54,34,68,97};
-  int n = sizeof(arr)/sizeof(arr[0])
+  int n = sizeof(arr)/sizeof(arr[0]);
+
+  radixSort(arr,n);
+  print(arr,n);
 }
