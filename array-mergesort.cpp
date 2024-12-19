@@ -51,3 +51,25 @@ void mergeSort(vector<int>& arr, int left, int right){
   mergeSort(arr,mid+1, right);
   merge(arr,left, mid, right);
 }
+
+void printVector(vector<int>& arr){
+  for(int i=0;i<arr.size();i++){
+    cout<<arr[i]<<" ";
+  }
+  cout<<endl;
+}
+
+int main(){
+  vector<int> arr = {12, 11, 13, 5, 6, 7};
+  int n = arr.size();
+
+  cout<<"Given vector is: \n";
+  printVector(arr);
+
+  mergeSort(arr,0,n-1);
+
+  cout<<"\nSorted vector is: \n";
+  printVector(arr);
+
+  return 0;
+}
