@@ -149,7 +149,6 @@ int main(){
   list1.insertAtEnd(20);
 
   list1.insertAtBeginning(5);
-
   list1.insertAtPosition(15,3);
 
   cout<<"Linked list after insertions : ";
